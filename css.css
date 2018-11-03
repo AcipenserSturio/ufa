@@ -1,0 +1,16 @@
+body {}
+
+h1, h2, h3 {
+	font-family: Centaur, "Palatino Linotype", "Book Antiqua", serif;
+	text-align: center;
+}
+h1 {font-size: 40px;}
+h2 {font-size: 32px;}
+h3 {font-size: 24px;}
+p {
+	font-family: Verdana, "Lucida Sans Unicode", sans-serif;
+	font-size: 18px;
+}
+img {
+	margin: 10px;
+}
