@@ -1,7 +1,7 @@
 body {}
 
 h1, h2, h3 {
-	font-family: Centaur, "Palatino Linotype", "Book Antiqua", serif;
+	font-family: "Palatino Linotype", "Book Antiqua", serif;
 	text-align: center;
 }
 h1 {font-size: 40px;}
@@ -13,4 +13,25 @@ p {
 }
 img {
 	margin: 10px;
+}
+td {
+	font-family: Verdana, "Lucida Sans Unicode", sans-serif;
+	font-size: 32px;
+	text-align: center;
+}
+table, td {
+   border: 2px solid black;
+   border-collapse: collapse;
+}
+.split {
+	height: 4px;
+}
+.bigsplit {
+	height: 50px;
+}
+.txt {
+	font-size: 12px;
+}
+.vert {
+	transform: rotate(-90deg);
 }
