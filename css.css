@@ -1,27 +1,71 @@
 /* General */
-body				{font-family: Verdana, "Lucida Sans Unicode", sans-serif;}
-h1, h2, h3			{font-family: "Palatino Linotype", "Book Antiqua", serif; text-align: center;}
-img					{margin: 10px;}
+ body {
+    font-family: Verdana, "Lucida Sans Unicode", sans-serif;
+}
+ h1, h2, h3 {
+    font-family: "Palatino Linotype", "Book Antiqua", serif;
+     text-align: center;
+}
+ img {
+    margin: 10px;
+}
 /* Table stuff */
-table, td			{border: 2px solid black; border-collapse: collapse;}
-td					{font-size: 32px; text-align: center;}
-.explain			{margin: 15px 0px;}
-.explain td			{border-width: 1px;}
-.split				{height: 4px;}
-.bigsplit			{height: 50px;}
-.vert				{transform: rotate(-90deg);}
+ table, td {
+    border: 2px solid black;
+     border-collapse: collapse;
+}
+ td {
+    font-size: 32px;
+     text-align: center;
+}
+ .explain {
+    margin: 15px 0px;
+}
+ .explain td {
+    border-width: 1px;
+}
+ .split {
+    height: 4px;
+}
+ .bigsplit {
+    height: 50px;
+}
+ .vert {
+    transform: rotate(-90deg);
+}
 /* Text stuff */
-h1					{font-size: 40px;}
-h2					{font-size: 32px;}
-.txtb				{font-size: 32px;}
-h3					{font-size: 24px;}
-p					{font-size: 18px;}
-.txts				{font-size: 12px;}
+ h1 {
+    font-size: 40px;
+}
+ h2 {
+    font-size: 32px;
+}
+ .txtb {
+    font-size: 32px;
+}
+ h3 {
+    font-size: 24px;
+}
+ p {
+    font-size: 18px;
+}
+ .txts {
+    font-size: 12px;
+}
 /* Header */
-.menu				{width: 100%; 
-					 display: inline-block; 
-					 margin: 0; 
-					 border-bottom: 1px solid;
-					}
-.pages				{width: 65%; float: left;  text-align: left; }
-.langs				{width: 35%; float: right; text-align: right;}
+ .menu {
+    width: 100%;
+     display: inline-block;
+     margin: 0;
+     border-bottom: 1px solid;
+}
+ .pages {
+    width: 65%;
+     float: left;
+     text-align: left;
+}
+ .langs {
+    width: 35%;
+     float: right;
+     text-align: right;
+}
