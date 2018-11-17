@@ -24,8 +24,11 @@
  .explain td {
     border-width: 1px;
 }
+ .equalheight tr {
+    height: 115px;
+}
  .split {
-    height: 4px;
+    height: 4px !important;
 }
  .bigsplit {
     height: 50px;
