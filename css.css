@@ -1,6 +1,7 @@
 /* General */
  body {
     font-family: Verdana, "Lucida Sans Unicode", sans-serif;
+	width: fit-content;
 }
  h1, h2, h3 {
     font-family: "Palatino Linotype", "Book Antiqua", serif;
