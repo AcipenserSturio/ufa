@@ -43,12 +43,8 @@ p {
   font-size: 300%;
   text-align: center;
 }
-.sound { 
-  background-color: #ccccff;
-}
-.sound:hover { 
-  background-color: #9999ff;
-}
+.sound { background-color: #ccccff;}
+.sound:hover { background-color: #8888ff;}
 .ufa td {
   font-family: UFA;
   font-size: 300%;

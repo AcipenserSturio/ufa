@@ -10,6 +10,7 @@
 	<body>
 	<h1><a href="">UNIVERSAL FEATURAL ALPHABET</a></h1>
 	<h2><a href="https://en.wikipedia.org/wiki/Vowel">VOWELS</a></h2>
+	<p align="center">The symbols on the blue background are clickable. Click on a symbol to hear the sound it represents.</p>
 	<table align="center">
 		<tr class="plaintext">
 			<td rowspan="3"><a href="https://en.wikipedia.org/wiki/Vowel#Height">Vowel<br />height</a></td>
@@ -57,12 +58,12 @@
 			<td rowspan="2" class="plaintext vert"><a href="https://en.wikipedia.org/wiki/Close_vowel">Close</a></td>
 		</tr>
 		<tr class="ipa">
-			<td>i</td>
-			<td>ɨ</td>
-			<td>ɯ</td>
-			<td>y</td>
-			<td>ʉ</td>
-			<td>u</td>
+			<td class="sound" onclick="ipa('Close_front_unrounded_vowel');">i</td>
+			<td class="sound" onclick="ipa('Close_central_unrounded_vowel');">ɨ</td>
+			<td class="sound" onclick="ipa('Close_back_unrounded_vowel');">ɯ</td>
+			<td class="sound" onclick="ipa('Close_front_rounded_vowel');">y</td>
+			<td class="sound" onclick="ipa('Close_central_rounded_vowel');">ʉ</td>
+			<td class="sound" onclick="ipa('Close_back_rounded_vowel');">u</td>
 			<td>iː</td>
 			<td>ɨː</td>
 			<td>ɯː</td>
@@ -87,12 +88,12 @@
 			<td rowspan="2" class="plaintext vert"><a href="https://en.wikipedia.org/wiki/Near-close_vowel">Near-close</a></td>
 		</tr>
 		<tr class="ipa">
-			<td>ɪ</td>
+			<td class="sound" onclick="ipa('Near-close_near-front_unrounded_vowel');">ɪ</td>
 			<td>ɨ̞</td>
 			<td>ɯ̞</td>
-			<td>ʏ</td>
+			<td class="sound" onclick="ipa('Near-close_near-front_rounded_vowel');">ʏ</td>
 			<td>ʉ̞</td>
-			<td>ʊ</td>
+			<td class="sound" onclick="ipa('Near-close_near-back_rounded_vowel');">ʊ</td>
 			<td>ɪː</td>
 			<td>ɨ̞ː</td>
 			<td>ɯ̞ː</td>
@@ -117,12 +118,12 @@
 			<td rowspan="2" class="plaintext vert"><a href="https://en.wikipedia.org/wiki/Close-mid_vowel">Close-mid</a></td>
 		</tr>
 		<tr class="ipa">
-			<td>e</td>
-			<td>ɘ</td>
-			<td>ɤ</td>
-			<td>ø</td>
-			<td>ɵ</td>
-			<td>o</td>
+			<td class="sound" onclick="ipa('Close-mid_front_unrounded_vowel');">e</td>
+			<td class="sound" onclick="ipa('Close-mid_central_unrounded_vowel');">ɘ</td>
+			<td class="sound" onclick="ipa('Close-mid_back_unrounded_vowel');">ɤ</td>
+			<td class="sound" onclick="ipa('Close-mid_front_rounded_vowel');">ø</td>
+			<td class="sound" onclick="ipa('Close-mid_central_rounded_vowel');">ɵ</td>
+			<td class="sound" onclick="ipa('Close-mid_back_rounded_vowel');">o</td>
 			<td>eː</td>
 			<td>ɘː</td>
 			<td>ɤː</td>
@@ -148,7 +149,7 @@
 		</tr>
 		<tr class="ipa">
 			<td>e̞</td>
-			<td>ə</td>
+			<td class="sound" onclick="ipa('Mid-central_vowel');">ə</td>
 			<td>ɤ̞</td>
 			<td>ø̞</td>
 			<td>ɵ̞</td>
@@ -177,12 +178,12 @@
 			<td rowspan="2" class="plaintext vert"><a href="https://en.wikipedia.org/wiki/Open-mid_vowel">Open-mid</a></td>
 		</tr>
 		<tr class="ipa">
-			<td>ɛ</td>
-			<td>ɜ</td>
-			<td>ʌ</td>
-			<td>œ</td>
-			<td>ɞ</td>
-			<td>ɔ</td>
+			<td class="sound" onclick="ipa('Open-mid_front_unrounded_vowel');">ɛ</td>
+			<td class="sound" onclick="ipa('Open-mid_central_unrounded_vowel');">ɜ</td>
+			<td class="sound" onclick="ipa('Open-mid_back_unrounded_vowel');">ʌ</td>
+			<td class="sound" onclick="ipa('Open-mid_front_rounded_vowel');">œ</td>
+			<td class="sound" onclick="ipa('Open-mid_central_rounded_vowel');">ɞ</td>
+			<td class="sound" onclick="ipa('Open-mid_back_rounded_vowel');">ɔ</td>
 			<td>ɛː</td>
 			<td>ɜː</td>
 			<td>ʌː</td>
@@ -207,8 +208,8 @@
 			<td rowspan="2" class="plaintext vert"><a href="https://en.wikipedia.org/wiki/Near-open_vowel">Near-open</a></td>
 		</tr>
 		<tr class="ipa">
-			<td>æ</td>
-			<td>ɐ</td>
+			<td class="sound" onclick="ipa('Near-open_front_unrounded_vowel');">æ</td>
+			<td class="sound" onclick="ipa('Near-open_central_unrounded_vowel');">ɐ</td>
 			<td>ɑ̝</td>
 			<td>ɶ̝</td>
 			<td>ɒ̝̈</td>
@@ -237,12 +238,12 @@
 			<td rowspan="2" class="plaintext vert"><a href="https://en.wikipedia.org/wiki/Open_vowel">Open</a></td>
 		</tr>
 		<tr class="ipa">
-			<td>a</td>
+			<td class="sound" onclick="ipa('Open_front_unrounded_vowel');">a</td>
 			<td>ä</td>
-			<td>ɑ</td>
-			<td>ɶ</td>
+			<td class="sound" onclick="ipa('Open_back_unrounded_vowel');">ɑ</td>
+			<td class="sound" onclick="ipa('Open_front_rounded_vowel');">ɶ</td>
 			<td>ɒ̈</td>
-			<td>ɒ</td>
+			<td class="sound" onclick="ipa('Open_back_rounded_vowel');">ɒ</td>
 			<td>aː</td>
 			<td>äː</td>
 			<td>ɑː</td>
