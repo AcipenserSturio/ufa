@@ -1,80 +1,66 @@
 /* General */
  body {
-    font-family: Verdana, "Lucida Sans Unicode", sans-serif;
-	width: fit-content;
-}
- h1, h2, h3 {
-    font-family: "Palatino Linotype", "Book Antiqua", serif;
-     text-align: center;
-}
- img {
-    margin: 10px;
-}
-/* Table stuff */
- table, td {
-    border: 2px solid black;
-     border-collapse: collapse;
-}
- td {
-    font-size: 32px;
-     text-align: center;
-}
- .explain {
-    margin: 15px 0px;
-}
- .explain td {
-    border-width: 1px;
-}
- .equalheight tr {
-    height: 115px;
-}
- .split {
-    height: 4px !important;
-}
- .bigsplit {
-    height: 50px;
-}
- .vert {
-    transform: rotate(-90deg);
-}
-/* Text stuff */
- h1 {
-    font-size: 40px;
-}
- h2 {
-    font-size: 32px;
-}
- .txtb {
-    font-size: 32px;
-}
- h3 {
-    font-size: 24px;
-}
- p {
-    font-size: 18px;
-}
- .txts {
-    font-size: 12px;
-}
-/* Header */
- .menu {
-    width: 100%;
-     display: inline-block;
-     margin: 0;
-     border-bottom: 1px solid;
-}
- .pages {
-    width: 75%;
-     float: left;
-     text-align: left;
-}
- .langs {
-    width: 25%;
-     float: right;
-     text-align: right;
+  font-family: Verdana, "Lucida Sans Unicode", sans-serif;
 }
 
-/*@font-face {
+/* Table stuff */
+table, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin-bottom: 2px;
+  text-align: center;
+}
+.description {margin: 1% 0%;}
+.split {height: 4px !important;}
+.vert {transform: rotate(-90deg);}
+
+/* Text stuff */
+h1 {
+  font-family: "Palatino Linotype", "Book Antiqua", serif;
+  text-align: center;
+  font-size: 250%;
+  margin-top: 4%;
+}
+h2 {
+  font-family: "Palatino Linotype", "Book Antiqua", serif;
+  text-align: center;
+  font-size: 200%;
+}
+h3 {
+  font-family: "Palatino Linotype", "Book Antiqua", serif;
+  font-size: 150%;
+}
+p {
+  font-size: 100%;
+  margin: 1%;
+}
+.toc {font-size: 200%;}
+
+/* Text in tables */
+
+.ipa td {
+  font-family: 'Times New Roman';
+  font-size: 300%;
+  text-align: center;
+}
+.ufa td {
   font-family: UFA;
-  src: url(ufa.otf);
-}*/
+  font-size: 300%;
+  text-align: center;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.plaintext {
+  font-family: Verdana, "Lucida Sans Unicode", sans-serif !important;
+  font-size: 80% !important;
+  text-align: center !important;
+  padding-top: 0px !important;
+  padding-left: 0px !important;
+}
+
+/* Font */
+@font-face {
+  font-family: UFA;
+  src: url(ufa2.ttf);
+}
