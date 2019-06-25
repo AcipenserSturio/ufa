@@ -64,5 +64,17 @@ p {
 /* Font */
 @font-face {
   font-family: UFA;
-  src: url(ufa2.ttf);
+  src: url(ufa.ttf);
+}
+
+/* Converter page */
+.ufatext {
+  /*font-family: UFA;*/
+  font-size: 300%;
+  word-wrap: break-word;
+}
+textarea {
+  margin: 1%;
+  width: 48%;
+  height: 20%;
 }
